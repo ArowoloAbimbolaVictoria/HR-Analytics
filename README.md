@@ -40,7 +40,9 @@ This analysis sought to address the following key questions:
 ## Data Cleaning
 After loading the datasets into Power BI, I performed the following data preparation tasks:
 1. Using the data preview feature on Power Query, I was able to identify that there were no null values and errors for each column in the HR Analytics Data’ table.
- 
+ ![](https://github.com/ArowoloAbimbolaVictoria/HR-Analytics/blob/main/hrdatacleaning.jpg)
+
+
   ![](https://github.com/ArowoloAbimbolaVictoria/HR-Analytics/blob/main/hr..data%20image.webp)
   
 2. Created conditional columns to identify:
@@ -48,7 +50,8 @@ After loading the datasets into Power BI, I performed the following data prepara
 - Employees with 18+ years of service (marked for dismissal).
 - Employees grouped by distance from the office.
 - Then I calculated the total number of men and women and their percentages.
-- The company needs to retreanch some employees for some reasons, let’s determine who those employees should be. We lay-off people that had spent above 18 years in the organization and the rest people stay.
+
+3. The company needs to retreanch some employees for some reasons, let’s determine who those employees should be. We lay-off people that had spent above 18 years in the organization and the rest people stay.
 
   ### Here's a show of calculated colunms i created
 
@@ -102,6 +105,7 @@ To enable efficient analysis, I established relationships between the datasets u
 
 
 ## Recommendations
+I gave the following reccommendations based on my Analysis.
 1. Promotion Policy: Reduce the promotion cycle to less than 10 years to boost employee motivation.
 2. Performance-Based Layoffs: Consider using performance metrics rather than tenure alone for dismissal decisions.
 3. Upskilling Programs: Offer training opportunities for employees at levels 1 and 2 to advance their careers.
@@ -111,4 +115,4 @@ To enable efficient analysis, I established relationships between the datasets u
 ## Conclusion
 This analysis highlights actionable insights for HR decision-making, from identifying promotion opportunities to managing workforce distribution and addressing job satisfaction. These findings can guide strategic planning, improve employee engagement, and optimize operational efficiency.
 
-Thank you for following through!
+### Thank you for following through!
